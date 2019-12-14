@@ -1,0 +1,9 @@
+TestReportStart/**************************/
+Step Name	Parameter	Action	Locator type	Locator	Expected	Observed
+Enable Mobile data	Enable Mobile data	Mobiledataon				MobileData_enabled
+Login Page_Enter Username	LoginPage_Username	Sendkeys	ID	edtUsername	dhanashekhar	SendKeysSuccess
+LoginPage_ClickOnPassword	LoginPage_Password	Tap	ID	edtPassword	NA	Tapped
+Login Page_Enter Password	LoginPage_Password	Sendkeys	ID	edtPassword	123456	SendKeysSuccess
+Login Page_Click on Login	LoginPage_Login	Tap	ID	btnLogin	NA	Tapped
+Standard Wait General	Standard Delay	Delay			5000	waitsuccess
+LoginValidation	LoginValidation	Waitforelement	ID	btnNewProject	NA	ElementFound

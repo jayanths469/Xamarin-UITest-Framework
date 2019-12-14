@@ -1,0 +1,1 @@
+appcenter test run uitest --app "Owner name" --devices "Deviceset" --app-path "APPPATH" --test-series "master" --locale "en_US" --build-dir dlllocation --uitest-tools-dir toolspath --include "Testdata.txt" --include "configfile.txt"

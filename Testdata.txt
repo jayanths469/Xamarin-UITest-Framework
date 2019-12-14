@@ -1,0 +1,7 @@
+Step Name	Parameter	Action	Locator type	Locator	Expected	Index
+Login PageEnterUsername	LoginPageUsername	Sendkeys	ID	Username	Sample	0
+LoginPageClickOnPassword	LoginPagePassword	Tap	ID	Password	NA	0
+Login PageEnter Password	LoginPagePassword	Sendkeys	ID	Password	11111	0
+Login PageClick on Login	LoginPageLogin	Tap	ID	Login	NA	0
+Standard Wait General	Delay	Delay			5000	
+LoginValidation after login	Validation	Waitforelement	ID	NewProject	NA	0
